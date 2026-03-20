@@ -8,7 +8,7 @@
     "description": "The label for category 'BAIclaw' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.How to Add Channels": {
-    "message": "How to Add Channels",
+    "message": "如何添加频道",
     "description": "The label for category 'How to Add Channels' in sidebar 'tutorialSidebar'"
   }
 }

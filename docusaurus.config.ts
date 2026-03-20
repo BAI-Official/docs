@@ -66,7 +66,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/docusaurus-social-card.svg',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -76,8 +76,8 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'BAI',
-        src: 'img/logo.png', // 浅色模式
-        srcDark: 'img/logo_dark.png', // 深色模式
+        src: 'img/logo.svg', // 浅色模式
+        srcDark: 'img/logo_dark.svg', // 深色模式
         href: '/',
         height: 36,
         width: 154,
