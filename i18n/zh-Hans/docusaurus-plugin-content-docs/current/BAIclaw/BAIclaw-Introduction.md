@@ -11,7 +11,7 @@ slug: /
 
 **BAIclaw** 是一款基于 [OpenClaw](https://openclaw.ai/) 和 [ClawX](https://github.com/ValueCell-ai/ClawX/blob/main/README.md) 打造的个人 AI 智能体应用。BAIclaw 继承了 OpenClaw 的核心能力，并为用户提供了开箱即用的体验和图形化操作界面。
 
-更多使用技巧请参考 [OpenClaw 文档](https://docs.openclaw.ai/)
+更多使用技巧请参考 [OpenClaw 文档](https://docs.openclaw.ai/)。
 
 ---
 
@@ -50,6 +50,11 @@ slug: /
 
 ## 快速上手
 
+:::info[如果之前安装过 OpenClaw 或 ClawX]
+- **兼容性说明**：BAIclaw 基于 OpenClaw 和 ClawX 开发。如果您之前安装过这些应用或其衍生应用，可能会产生兼容性冲突。
+- **操作建议**：为避免潜在问题，建议在安装前先卸载 OpenClaw/ClawX，并手动删除相关的配置文件目录（例如 `~/.openclaw`）。
+:::
+
 ### 系统要求
 
 - **操作系统：** macOS 11+
@@ -72,7 +77,7 @@ slug: /
 | 页面 | 说明 |
 |------|------|
 | **对话** | 与 AI 智能体进行实时聊天的核心界面，支持多轮对话、消息渲染和输入交互 |
-| **模型** | 配置和管理 AI 模型供应商（OpenAI、Claude、Gemini 等），设置默认模型和 API Key |
+| **模型** | 配置和管理 AI 模型供应商（BANK OF AI），设置 API Key |
 | **Agents** | 添加和管理多个 AI 智能体 |
 | **频道** | 连接和管理外部通讯平台（Telegram、Discord 等），实现消息收发 |
 | **技能** | 安装和管理 AI 技能/插件，扩展智能体的能力（如浏览器控制、文件处理等） |

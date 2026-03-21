@@ -9,7 +9,7 @@ slug: /
 
 **BAIclaw** is a personal AI agent application built on [OpenClaw](https://openclaw.ai/) and [ClawX](https://github.com/ValueCell-ai/ClawX/blob/main/README.md). BAIclaw inherits the core capabilities of OpenClaw while providing users with an out-of-the-box experience and graphical user interface.
 
-For more tips and tricks, refer to the [OpenClaw Documentation](https://docs.openclaw.ai/)
+For more tips and tricks, refer to the [OpenClaw Documentation](https://docs.openclaw.ai/).
 
 ---
 
@@ -48,6 +48,11 @@ Customizable triggers and time intervals, combined with preset scheduled tasks, 
 
 ## Quick Start
 
+:::info[Compatibility Note]
+- BAIclaw is built upon OpenClaw and ClawX. If you have previously installed these applications or other derived projects, you may encounter **compatibility issues**.
+- To ensure a clean installation, we recommend **uninstalling** OpenClaw/ClawX and **deleting** their associated configuration folders (e.g., `~/.openclaw`) before proceeding.
+:::
+
 ### System Requirements
 
 - **Operating System:** macOS 11+
@@ -70,7 +75,7 @@ When launching BAIclaw for the first time, the **Setup Wizard** will guide you t
 | Page | Description |
 |------|-------------|
 | **Chat** | The core interface for real-time conversation with AI agents, supporting multi-turn dialogue, message rendering, and input interaction |
-| **Models** | Configure and manage AI model providers (OpenAI, Claude, Gemini, etc.), set default models and API Keys |
+| **Models** | Configure and manage AI model provider (BANK OF AI), set API Key |
 | **Agents** | Add and manage multiple AI agents |
 | **Channels** | Connect and manage external communication platforms (Telegram, Discord, etc.), enabling message sending and receiving |
 | **Skills** | Install and manage AI skills/plugins, extending agent capabilities (such as browser control, file processing, etc.) |
