@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Get API Key
 
 To use BAIclaw, you need an API Key from BANK OF AI. This key authenticates your requests and grants access to the large language model capabilities.
