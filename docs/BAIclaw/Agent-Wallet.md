@@ -2,118 +2,103 @@
 sidebar_position: 2
 ---
 
-# Agent Wallet 介绍
+# BAIclaw Agent Wallet
 
-Agent Wallet 是 BAiclaw 平台专为 AI 代理设计的本地安全 Web3 钱包。它为 AI 代理提供了与区块链交互的能力，使 AI 能够自主执行各种 Web3 操作。
+Agent Wallet is a locally secured Web3 wallet designed specifically for AI agents. It provides AI agents with the ability to interact with blockchains, enabling AI to autonomously perform various Web3 operations.
 
-## 什么是 Agent Wallet？
+## What is Agent Wallet?
 
-Agent Wallet 是一种特殊的钱包类型，专为 AI 场景设计：
+Agent Wallet is a special type of wallet designed for AI scenarios:
 
-- **本地安全存储**：钱包密钥本地加密存储，不上传云端
-- **AI 自主操作**：配置后，AI 可直接执行链上交易
-- **功能丰富**：支持转账、兑换、流动性管理等多种 Web3 技能
-- **x402 协议支持**：可访问基于 x402 协议的付费资源
+- **Local Secure Storage**: Wallet keys are encrypted and stored locally, never uploaded to the cloud
+- **AI Autonomous Operations**: Once configured, AI can directly execute on-chain transactions
+- **Feature-Rich**: Supports transfers, swaps, liquidity management, and many other Web3 skills
+- **x402 Protocol Support**: Access paid resources based on the x402 protocol
 
-:::info[Agent Wallet 与普通钱包的区别]
-普通钱包由人类手动操作，而 Agent Wallet 授权给 AI 代理使用，使 AI 能够代表你执行链上操作。
+:::info[How Agent Wallet Differs from Regular Wallets]
+Regular wallets are manually operated by humans, while Agent Wallet is authorized for use by AI agents, enabling AI to execute on-chain operations on your behalf.
 :::
 
-## 核心功能
+## Core Features
 
-配置 Agent Wallet 后，你的 AI 代理将具备以下能力：
+Once Agent Wallet is configured, your AI agent will have the following capabilities:
 
-| 功能 | 说明 |
-|------|------|
-| **自我充值** | AI 可根据需要自主充值，确保操作资金充足 |
-| **转账** | 向其他地址发送加密货币 |
-| **代币兑换** | 在不同代币之间进行交换 |
-| **流动性管理** | 参与 DeFi 流动性池的管理 |
-| **x402 付费** | 访问需要付费的 AI 资源和服务 |
+| Feature | Description |
+|---------|-------------|
+| **Self Top-Up** | AI can autonomously top up as needed to ensure sufficient funds for operations |
+| **Transfer** | Send cryptocurrency to other addresses |
+| **Token Swap** | Exchange between different tokens |
+| **Liquidity Management** | Participate in DeFi liquidity pool management |
+| **x402 Payment** | Access AI resources and services that require payment |
 
-## 创建流程
+## Creation Process
 
-### 前置条件
+### Prerequisites
 
-:::warning[重要前提]
-创建 Agent Wallet **前必须先添加并配置 BANK OF AI 的 API Key**，否则无法创建钱包。
+:::warning[Important Prerequisite]
+You **must add and configure a BAI API Key before** creating an Agent Wallet, otherwise the wallet cannot be created. Learn [how to obtain an API Key](operation-guide/Get-API-Key.md)
 :::
 
-### 步骤说明
+### Steps
 
-1. **导入私钥**
-   - 导入与 BANK OF AI API Key 关联的钱包私钥
-   - 目前仅支持 **TRON 地址**
-   - 私钥对应的地址必须与 API Key 所在账户地址一致
+1. **Import Private Key**
+   - Import the wallet private key associated with your BAI API Key
+   - Currently only **TRON addresses** are supported
+   - The address corresponding to the private key must match the account address of the API Key
 
-2. **设置主密码**
-   - 要求至少 8 位字符
-   - 必须包含大小写字母、数字及特殊字符
-   - 用于加密保护本地钱包文件
+2. **Set Master Password**
+   - Must be at least 8 characters
+   - Must include uppercase and lowercase letters, numbers, and special characters
+   - Used to encrypt and protect the local wallet file
 
-:::danger[密码安全警告]
-平台**不会备份主密码**，丢失后将**无法找回**。请务必妥善保管，建议使用密码管理器存储。
+:::danger[Password Security Warning]
+The platform **does not back up your master password**. If lost, it **cannot be recovered**. Please keep it safe — using a password manager is strongly recommended.
 :::
 
-## 管理与维护
+## Management & Maintenance
 
-### 查看使用情况
+### Modifying API Key
 
-- 在设置中查看**积分消耗情况**
-- 管理**AI 提供商**配置
+- If the current API Key already has an Agent Wallet bound to it, you must **delete the existing Agent Wallet** before modifying the API Key
 
-### 修改钱包
-
-如需修改已绑定的 Agent Wallet：
-
-1. 进入设置 → Agent Wallet
-2. 先**删除现有钱包**
-3. 重新创建并配置新钱包
-
-:::warning[删除警告]
-删除操作将导致钱包、密钥和配置被**永久删除，无法恢复**。请确保已备份必要信息。
+:::warning[Deletion Warning]
+Deletion will result in the wallet, keys, and configuration being **permanently deleted and unrecoverable**. Please ensure you have backed up any necessary information.
 :::
 
-## 使用示例
+## Usage Examples
 
-成功创建 Agent Wallet 后，你可以让 AI 帮你完成各种 Web3 操作：
+After successfully creating an Agent Wallet, you can ask BAIclaw to help you with various Web3 operations:
 
-| 场景 | 示例指令 |
-|------|----------|
-| 查询汇率 | "查一下 USDT 兑换 TRX 的汇率" |
-| 余额查询 | "看看我的 BANK OF AI 账户余额" |
-| 订单记录 | "显示我最近的订单记录" |
-| 代币转账 | "转 100 USDT 到指定地址" |
+| Scenario | Example Command |
+|----------|-----------------|
+| Check Exchange Rate | "Check the USDT to TRX exchange rate" |
+| Balance Inquiry | "Show my BAI account balance" |
+| Order History | "Show my recent order history" |
+| Token Transfer | "Transfer 100 USDT to the specified address" |
 
-## 常见问题
+## FAQ
 
-**Q: Agent Wallet 和普通钱包有什么本质区别？**  
-A: Agent Wallet 是授权给 AI 使用的钱包，AI 可以在你设定的范围内自主执行操作；普通钱包完全由你手动控制。
+**Q: What is the fundamental difference between Agent Wallet and a regular wallet?**  
+A: Agent Wallet is a wallet authorized for AI use. AI can autonomously execute operations within the scope you define; a regular wallet is entirely under your manual control.
 
-**Q: 为什么需要导入私钥？**  
-A: 私钥是区块链资产的唯一凭证，导入私钥后 AI 才能代表你签名和发送交易。
+**Q: Why do I need to import a private key?**  
+A: The private key is the sole credential for blockchain assets. Only after importing the private key can AI sign and send transactions on your behalf.
 
-**Q: 主密码忘记了怎么办？**  
-A: 很遗憾，平台不存储主密码，忘记后将无法恢复钱包。请务必妥善保管，建议写在纸上或使用密码管理器。
+**Q: What if I forget my master password?**  
+A: Unfortunately, the platform does not store the master password, and the wallet cannot be recovered if forgotten. Please keep it safe — we recommend writing it down on paper or using a password manager.
 
-**Q: 可以修改已创建的钱包吗？**  
-A: 不能直接修改，需要先删除现有钱包，然后重新创建。
+**Q: Can I modify a wallet that has already been created?**  
+A: You cannot modify it directly. You need to delete the existing wallet first, then create a new one.
 
-**Q: 支持哪些区块链？**  
-A: 目前仅支持 TRON 网络，后续可能支持更多链。
+**Q: Which blockchains are supported?**  
+A: Currently only the TRON network is supported. More chains may be supported in the future.
 
-## 相关资源
-
-- [BANK OF AI 平台介绍](/docs/intro)
-- [API Key 配置指南](/docs/bank-of-ai/api-key)
-- [积分系统说明](/docs/bank-of-ai/credits)
-- [x402 协议文档](https://x402.org/)
 
 ---
 
-:::tip[需要帮助？]
-如果在配置 Agent Wallet 时遇到问题，请检查：
-1. API Key 是否正确配置
-2. 私钥对应的地址是否与 API Key 账户一致
-3. 主密码是否符合复杂度要求
+:::tip[Need Help?]
+If you encounter issues while configuring Agent Wallet, please check:
+1. Whether the API Key is correctly configured
+2. Whether the address corresponding to the private key matches the API Key account
+3. Whether the master password meets the complexity requirements
 :::

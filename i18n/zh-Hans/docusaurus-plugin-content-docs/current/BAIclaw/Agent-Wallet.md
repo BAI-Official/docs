@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Agent Wallet 介绍
+# BAIclaw Agent Wallet
 
-Agent Wallet 是 BAiclaw 平台专为 AI 代理设计的本地安全 Web3 钱包。它为 AI 代理提供了与区块链交互的能力，使 AI 能够自主执行各种 Web3 操作。
+Agent Wallet 是专为 AI 代理设计的本地安全 Web3 钱包。它为 AI 代理提供了与区块链交互的能力，使 AI 能够自主执行各种 Web3 操作。
 
 ## 什么是 Agent Wallet？
 
@@ -36,13 +36,13 @@ Agent Wallet 是一种特殊的钱包类型，专为 AI 场景设计：
 ### 前置条件
 
 :::warning[重要前提]
-创建 Agent Wallet **前必须先添加并配置 BANK OF AI 的 API Key**，否则无法创建钱包。
+创建 Agent Wallet **前必须先添加并配置 BAI 的 API Key**，否则无法创建钱包。了解[如何获取API Key](operation-guide/Get-API-Key.md)
 :::
 
 ### 步骤说明
 
 1. **导入私钥**
-   - 导入与 BANK OF AI API Key 关联的钱包私钥
+   - 导入与 BAI API Key 关联的钱包私钥
    - 目前仅支持 **TRON 地址**
    - 私钥对应的地址必须与 API Key 所在账户地址一致
 
@@ -57,18 +57,9 @@ Agent Wallet 是一种特殊的钱包类型，专为 AI 场景设计：
 
 ## 管理与维护
 
-### 查看使用情况
+### 修改 API Key
 
-- 在设置中查看**积分消耗情况**
-- 管理**AI 提供商**配置
-
-### 修改钱包
-
-如需修改已绑定的 Agent Wallet：
-
-1. 进入设置 → Agent Wallet
-2. 先**删除现有钱包**
-3. 重新创建并配置新钱包
+- 如果当前 API Key 已绑定了Agent Wallet，需先**删除现有 Agent Wallet **才能修改 API Key
 
 :::warning[删除警告]
 删除操作将导致钱包、密钥和配置被**永久删除，无法恢复**。请确保已备份必要信息。
@@ -76,12 +67,12 @@ Agent Wallet 是一种特殊的钱包类型，专为 AI 场景设计：
 
 ## 使用示例
 
-成功创建 Agent Wallet 后，你可以让 AI 帮你完成各种 Web3 操作：
+成功创建 Agent Wallet 后，你可以让 BAIclaw 帮你完成各种 Web3 操作：
 
 | 场景 | 示例指令 |
 |------|----------|
 | 查询汇率 | "查一下 USDT 兑换 TRX 的汇率" |
-| 余额查询 | "看看我的 BANK OF AI 账户余额" |
+| 余额查询 | "看看我的 BAI 账户余额" |
 | 订单记录 | "显示我最近的订单记录" |
 | 代币转账 | "转 100 USDT 到指定地址" |
 
@@ -102,12 +93,6 @@ A: 不能直接修改，需要先删除现有钱包，然后重新创建。
 **Q: 支持哪些区块链？**  
 A: 目前仅支持 TRON 网络，后续可能支持更多链。
 
-## 相关资源
-
-- [BANK OF AI 平台介绍](/docs/intro)
-- [API Key 配置指南](/docs/bank-of-ai/api-key)
-- [积分系统说明](/docs/bank-of-ai/credits)
-- [x402 协议文档](https://x402.org/)
 
 ---
 

@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # 飞书
 
 ## 配置步骤

@@ -27,7 +27,7 @@ BAIclaw's design philosophy is to make AI agents **work out of the box** like or
 ├─────────────────────────────────────┤
 │            OpenClaw                 │  ← Agent Runtime, Extension Framework
 ├─────────────────────────────────────┤
-│          B.AI LLM API               │  ← Intelligence Source
+│           BAI LLM API               │  ← Intelligence Source
 └─────────────────────────────────────┘
 ```
 
@@ -76,7 +76,7 @@ BAIclaw's main interface consists of the following functional modules, working t
 | Module              | Purpose                                  | Typical Use Case                                   |
 | ------------------- | ---------------------------------------- | -------------------------------------------------- |
 | **Chat**            | Real-time conversation with AI agents    | Daily Q&A, multi-turn discussions, task delegation |
-| **Models**          | Configure AI models and API keys         | Adding BANK OF AI API Key                          |
+| **Models**          | Configure AI models and API keys         | Adding BAI API Key                          |
 | **Agents**          | Manage multiple agent configurations     | Creating an agent specialized for code review      |
 | **Channels**        | Connect external communication platforms | Integrating agents into Telegram groups            |
 | **Skills**          | Install and manage capability extensions | Adding browser automation skills                   |
@@ -93,11 +93,11 @@ If you're new to BAIclaw, we recommend following this order:
 
 1. **Install the App**: Ensure your system is macOS 11+ with 4GB+ RAM
 2. **Complete the Wizard**: Follow the setup wizard on first launch to complete basic configuration
-3. **Get API Key**: Visit [Get API Key](./operation-guide/Get-API-Key.md) to obtain your BANK OF AI access key
+3. **Get API Key**: Visit [Get API Key](./operation-guide/Get-API-Key.md) to obtain your BAI access key
 4. **Start Chatting**: Have your first conversation with an agent on the Chat page
 
 
 
 ## Further Reading
 
-- [OpenClaw Official Documentation](https://docs.openclaw.ai/) — Learn about the underlying runtime
+- [OpenClaw Official Documentation](https://docs.openclaw.ai/) — Learn about the underlying runtimeruntime
